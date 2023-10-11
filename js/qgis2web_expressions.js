@@ -771,13 +771,13 @@ function exp_LANDUSECITRARAYATANGERANG2023_1rule0_eval_expression(context) {
 
 
 function exp_LANDUSECITRARAYATANGERANG2023_1rule1_eval_expression(context) {
-    // KODEBIDANG
+    // SPH_NO
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return feature.properties['KODEBIDANG'] ;
+        return feature.properties['SPH_NO'] ;
     } else {
-        return feature['KODEBIDANG'] ;
+        return feature['SPH_NO'] ;
     }
 }
